@@ -1,0 +1,86 @@
+/* Fonts */
+/* :root {
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
+} */
+
+/* Colors */
+/* :root {
+  --color-default: #222222;
+  --color-primary: #008374;
+  --color-secondary: #f85a40;
+} */
+
+/* Smooth scroll behavior */
+:root {
+  scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #e96b56;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #e6573f;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 0 0 80px 0 !important;
+}
+
+.section-bg {
+  background-color: white !important;
+}
+
+.section-title {
+  text-align: center !important;
+  padding-bottom: 30px !important;
+}
+
+.section-title h2 {
+  font-size: 28px !important;
+  font-weight: 600 !important;
+  margin-bottom: 20px !important;
+  padding-bottom: 20px !important;
+  position: relative !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.section-title h2::after {
+  content: "" !important;
+  position: absolute !important;
+  display: block !important;
+  width: 50px !important;
+  height: 3px !important;
+  background: #e96b56 !important;
+  bottom: 0 !important;
+  left: calc(50% - 25px) !important;
+}
+
+.section-title p {
+  margin-bottom: 0 !important;
+}
