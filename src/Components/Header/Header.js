@@ -1,9 +1,8 @@
 import '../Header/Header.css';
 import React from 'react';
 
-import { List } from 'react-bootstrap-icons';
-// import gambar
-// import Logos from '../../assets/images/'
+import { List ,ChevronDown} from 'react-bootstrap-icons';
+
 
 
 function Header() {
@@ -12,7 +11,7 @@ function Header() {
       <header id="header" className="d-flex align-items-center">
           <div className="container d-flex justify-content-between align-items-center">
             <div className="logo">
-              <h1><a href="index.html">Bengkel Las Yolan Indah</a></h1>
+              <h1><a href="/">Bengkel Las Yolan Indah</a></h1>
               {/* <a href="index.html"><img src="assets/img/logo.png" alt="" className="img-fluid"></a> */}
             </div>
 
@@ -20,12 +19,12 @@ function Header() {
               <ul>
                 <li><a className="active" href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="team.html">Team</a></li>
+                <li><a href="/service">Services</a></li>
+                <li><a href="/product">Product</a></li>
+                {/* <li><a href="team.html">Team</a></li>
                 <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li className="dropdown"><a href="#/"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
+                <li><a href="blog.html">Blog</a></li> */}
+                <li className="dropdown"><a href="#/"><span>Drop Down</span> <i><ChevronDown/></i></a>
                   <ul>
                     <li><a href="#/">Drop Down 1</a></li>
                     <li className="dropdown"><a href="#/"><span>Deep Drop Down</span> <i className="bi bi-chevron-right"></i></a>
@@ -42,7 +41,7 @@ function Header() {
                     <li><a href="#/">Drop Down 4</a></li>
                   </ul>
                 </li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="/contact">Contact</a></li>
               </ul>
               <i className="mobile-nav-toggle">
                 <List/>

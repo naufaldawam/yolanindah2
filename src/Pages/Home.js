@@ -1,17 +1,19 @@
-import Hero from "../Components/KontenHome/Heros/Hero";
 import About from "../Components/KontenHome/AboutUs/About";
 import Feature from "../Components/KontenHome/Features/Feature";
 import Service from "../Components/KontenHome/Services/Service";
-import Client from "../Components/KontenHome/Clients/Client";
+// import Client from "../Components/KontenHome/Clients/Client";
+import HeroCarousel from "../Components/KontenHome/Carousels/HeroCarousel";
+// import ClientsPagination from "../Components/KontenHome/ClientsPaginations/ClientsPagination";
 
 const Home = () => {
     return(
         <div>
-            <Hero/>
+            <HeroCarousel/>
             <Feature/>
             <About/>
             <Service/>
-            <Client/>
+            {/* <Client/> */}
+            {/* <ClientsPagination/> */}
         </div>
     )
 };

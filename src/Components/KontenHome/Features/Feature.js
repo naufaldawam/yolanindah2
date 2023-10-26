@@ -12,22 +12,26 @@ function Feature() {
             <div className="col-lg-4">
               <div className="icon-box">
                 <i><CardChecklist/></i>
-                <h3><a href="#/">Lorem Ipsum</a></h3>
-                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                <h3><a href="#/">Kenapa memilih kami?</a></h3>
+                <p>
+                  Kami memiliki pengalaman lebih dari 15 Tahun dalam bidang Fabrikasi & Pekerjaan Metal, yang telah banyak berkontribusi dalam berbagai proyek seperti proyek Konstuksi Bangunan, Konstruksi Jembatan, Fabrikasi Alat Berat, Fabrikasi Tower, Fabrikasi Trafo dan banyak jenis Fabrikasi lain telah kami kerjakan dengan tingkat kepuasan pelanggan yang sangat baik.
+                </p>
               </div>
             </div>
             <div className="col-lg-4 mt-4 mt-lg-0">
               <div className="icon-box">
                 <i><BarChart/></i>
-                <h3><a href="#/">Dolor Sitema</a></h3>
-                <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                <h3><a href="#/">kualitas</a></h3>
+                <p>
+                  Kami selalu memastikan produk yang kami kirim memiliki kualitas yang sesuai dengan kebutuhan pelanggan.
+                </p>
               </div>
             </div>
             <div className="col-lg-4 mt-4 mt-lg-0">
               <div className="icon-box">
                 <i><Binoculars/></i>
-                <h3><a href="#/">Sed ut perspiciatis</a></h3>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                <h3><a href="#/">Pengiriman</a></h3>
+                <p>Untuk memastikan produk terkirim dengan cepat, kami memiliki berbagai macam armada transportasi dari mulai Truk hingga Trailer.</p>
               </div>
             </div>
           </div>

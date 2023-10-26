@@ -9,10 +9,11 @@ function BreadCrumbsComponents() {
       <Container>
         <ol>
           <li><a href="/">Home</a></li>
-          <li>About Us</li>
+          <li>Services</li>
         </ol>
-        <h2>Tentang Kami</h2>
+        <h2>Produk Yang Kami Hadirkan Untuk Anda</h2>
       </Container>
+
     </section>
   );
 }
