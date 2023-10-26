@@ -1,8 +1,9 @@
 import '../Footer/Footer.css';
 import React from 'react';
+import { Form } from 'react-bootstrap';
 
 // import favicon
-import { ChevronRight , Twitter, Facebook, Instagram, Linkedin, Skype} from 'react-bootstrap-icons';
+import { Twitter, Facebook, Instagram, Linkedin, Skype} from 'react-bootstrap-icons';
 
 const Footer = () => {
   return (
@@ -12,13 +13,14 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <h4>Dapatkan Penawaran ?</h4>
+            <p>Silahkan ketik email anda pada kolom yang tersedia , tim marketing kami akan menghubungi anda</p>
           </div>
           <div className="col-lg-6">
-            {/* <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form> */}
+            <Form>
+              <input type="email" name="email" placeholder='Masukkan Email Anda'/>
+              <input type="submit" value="Kirim Email"/>
+            </Form>
           </div>
         </div>
       </div>
@@ -28,7 +30,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
 
-          <div className="col-lg-3 col-md-6 footer-links">
+          {/* <div className="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i className="bx"><ChevronRight/></i> <a href="#/">Home</a></li>
@@ -48,22 +50,23 @@ const Footer = () => {
               <li><i className="bx"><ChevronRight/></i> <a href="#/">Marketing</a></li>
               <li><i className="bx"><ChevronRight/></i> <a href="#/">Graphic Design</a></li>
             </ul>
-          </div>
+          </div> */}
 
           <div className="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br />
-              New York, NY 535022 <br />
-              United States <br /><br />
-              <strong>Phone:</strong> +1 5589 55488 55<br />
-              <strong>Email:</strong> info@example.com<br />
+              Jl. Pangeran Antasari No.5t <br />
+              RT.1/RW.9, Cipete Utara <br />
+              Kec.Kebayoran Baru <br />
+              Jakarta, 12150 <br /><br />
+              <strong>Phone:</strong> (021) 7590948<br />
+              <strong>Email:</strong> marketing@yolanindah.com<br />
             </p>
           </div>
 
           <div className="col-lg-3 col-md-6 footer-info">
             <h3>About Eterna</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <p>Terus dapatkan informasi seputar kita pada link dibawah ini</p>
             <div className="social-links mt-3">
               <a href="#/" className="twitter"><i className="bx"><Twitter/></i></a>
               <a href="#/" className="facebook"><i className="bx"><Facebook/></i></a>
