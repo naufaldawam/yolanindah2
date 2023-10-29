@@ -66,7 +66,7 @@ const Footer = () => {
           </div>
 
           <div className="col-lg-3 col-md-6 footer-info">
-            <h3>About Eterna</h3>
+            <h3>About</h3>
             <p>Terus dapatkan informasi seputar kita pada link dibawah ini</p>
             <div className="social-links mt-3">
               <a href="#/" className="twitter"><i className="bx"><Twitter/></i></a>
@@ -83,7 +83,7 @@ const Footer = () => {
 
     <div className="container">
       <div className="copyright">
-        &copy; Copyright Bengkel Las <strong><span>Yolan Indah</span></strong>. All Rights Reserved
+        &copy; Copyright  <strong><span>PT. Yolan Indah Nusantara</span></strong>, All Rights Reserved
       </div>
       <div className="credits">
         {/* <!-- All the links in the footer should remain intact. -->
