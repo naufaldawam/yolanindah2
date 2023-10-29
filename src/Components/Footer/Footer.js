@@ -1,6 +1,6 @@
 import '../Footer/Footer.css';
 import React from 'react';
-import { Form } from 'react-bootstrap';
+// import { Form } from 'react-bootstrap';
 
 // import favicon
 import { Twitter, Facebook, Instagram, Linkedin, Skype} from 'react-bootstrap-icons';
@@ -8,7 +8,7 @@ import { Twitter, Facebook, Instagram, Linkedin, Skype} from 'react-bootstrap-ic
 const Footer = () => {
   return (
     <footer id="footer">
-
+{/* 
     <div className="footer-newsletter">
       <div className="container">
         <div className="row">
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
 
     <div className="footer-top">
       <div className="container">

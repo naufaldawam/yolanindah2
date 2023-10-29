@@ -53,7 +53,7 @@ function HeroCarousel() {
           {slides.map((slide, index) => (
             <Carousel.Item key={slide.id}>
               <img
-                className="d-block w-100"
+                className="d-block w-100 h-100"
                 src={slide.image}
                 alt={`Slide ${slide.id}`}
               />
@@ -62,7 +62,7 @@ function HeroCarousel() {
                   <h2 className="animate__animated animate__fadeInDown" dangerouslySetInnerHTML={{ __html: slide.title }}></h2>
                   {/* <h2 className="animate__animated animate__fadeInDown">{slide.title} <span>Yolan Indah Nusantara</span></h2> */}
                   <p className="animate__animated animate__fadeInUp">{slide.description}</p>
-                  <a href="#/" className="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+                  <a href="#about" className="btn-get-started animate__animated animate__fadeInUp">Read More</a>
                 </div>
               </div>
             </Carousel.Item>

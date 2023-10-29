@@ -5,10 +5,11 @@
 #header {
   height: 70px;
   transition: all 0.5s;
-  z-index: 997;
+  z-index: 999;
   transition: all 0.5s;
   background: #fff;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+
 }
 
 #header .logo h1 {
@@ -38,6 +39,7 @@
 .scrolled-offset {
   margin-top: 70px;
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -110,7 +112,7 @@
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
-  z-index: 99;
+  z-index: 999;
   opacity: 0;
   visibility: hidden;
   background: #fff;
@@ -169,7 +171,6 @@
 }
 
 
-
 /**
 * Mobile Navigation 
 */
@@ -189,6 +190,10 @@
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+  }
+
+  #header .logo h1 {
+    font-size: 20px;
   }
 
   .navbar ul {
@@ -277,4 +282,17 @@
 
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
+}
+
+
+
+.logo {
+  display: flex;
+  align-items: center; /* Menyamaratakan secara vertikal */
+}
+
+.logo img {
+  max-height: 40px; /* Menyamakan tinggi gambar */
+  margin-right: 10px !important; /* Spasi antara gambar dan teks */
+  margin-left: 10px; /* Spasi antara gambar dan teks */
 }
