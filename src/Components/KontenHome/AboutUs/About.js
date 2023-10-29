@@ -19,8 +19,8 @@ function About() {
               <img src={AboutImg} className="img-fluid" alt=""/>
             </div>
             <div className="col-lg-6 pt-4 pt-lg-0 content">
-              <p className="fst-italic">
-                PT Yolan Indah Nusantara
+              <p className="fst-italic bold">
+                  PT Yolan Indah Nusantara
               </p>
               <p>
                 Awal kali berdiri tahun 2008 bermula dari bengkel las yang menyediakan jasa pengelesan. Setelah tahun berjalan kami bertekad untuk melebarkan sayap menjadi sebuah perusahaan penyedia jasa renovasi rumah.

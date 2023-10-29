@@ -21,7 +21,6 @@ function App() {
           <Route path='/service' element={<Service/>}/>
           <Route path='/product' element={<Product/>}/>
           <Route path='/contact' element={<Contact/>}/>
-
           {/* <Route path='/login' element={<Login/>}/> */}
           {/* <Route path='/about' element={<About/>}/> */}
           {/* <Route path='/feedback' element={<Feedback/>}/> */}

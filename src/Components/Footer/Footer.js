@@ -1,6 +1,6 @@
 import '../Footer/Footer.css';
 import React from 'react';
-// import { Form } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 
 // import favicon
 import { Twitter, Facebook, Instagram, Linkedin, Skype} from 'react-bootstrap-icons';
@@ -8,7 +8,7 @@ import { Twitter, Facebook, Instagram, Linkedin, Skype} from 'react-bootstrap-ic
 const Footer = () => {
   return (
     <footer id="footer">
-{/* 
+
     <div className="footer-newsletter">
       <div className="container">
         <div className="row">
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div> */}
+    </div>
 
     <div className="footer-top">
       <div className="container">
@@ -55,11 +55,12 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              Jl. Pangeran Antasari No.5t <br />
+              Jl. Pangeran Antasari No.5 <br />
               RT.1/RW.9, Cipete Utara <br />
               Kec.Kebayoran Baru <br />
               Jakarta, 12150 <br /><br />
               <strong>Phone:</strong> (021) 7590948<br />
+              <strong>Phone:</strong> (+62) 8170123021<br />
               <strong>Email:</strong> marketing@yolanindah.com<br />
             </p>
           </div>

@@ -30,8 +30,12 @@
 
 import './TopBar.css';
 import React from 'react';
-import { Envelope, Twitter, Facebook, Instagram, Linkedin, Phone } from 'react-bootstrap-icons';
+import { Envelope, Twitter, Facebook, Instagram, Linkedin, Phone, Whatsapp } from 'react-bootstrap-icons';
 import { Container } from 'react-bootstrap';
+
+function openWhatsApp() {
+  window.open('https://wa.me/628170123021/?text=halo%20yolan%20indah%2csaya%20ingin%20mendapatkan%20informasi', '_blank');
+}
 
 function TopBars() {
   return (
@@ -45,6 +49,12 @@ function TopBars() {
           <i className="d-flex align-items-center ms-4">
             <Phone/>
             <span>(021) 7590948</span>
+          </i>
+          <i className="d-flex align-items-center ms-4">
+            <Whatsapp/>
+            <span>
+            <a href="#/" onClick={openWhatsApp} >(+62) 8170123021</a>
+            </span>
           </i>
         </div>
         <div className="social-links d-none d-md-flex align-items-center">
