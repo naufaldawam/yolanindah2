@@ -15,20 +15,21 @@ const slides = [
     id: 1,
     image: Slide1,
     title: 'Welcome to <span>Yolan Indah Nusantara</span>',
-    description: 'Selain jasa renovasi rumah, untuk bagian eksterior dan pengamanan kami juga menyediakan jasa bengkel las untuk melayani jasa pembuatan kanopi, pagar, railing tangga serta teralis dengan berbagai macam bahan baik dari besi maupun stainless.',
+    description: 'Selamat datang di website kami,dimana kami juga menyediakan jasa bengkel las untuk melayani jasa pembuatan kanopi, pagar, railing tangga serta teralis dengan berbagai macam bahan baik dari besi maupun stainless.',
   },
   {
     id: 2,
     image: Slide2,
-    title: 'Bengkel <span>Las</span>',
-    description: 'Selain jasa renovasi rumah, untuk bagian eksterior dan pengamanan kami juga menyediakan jasa bengkel las untuk melayani jasa pembuatan kanopi, pagar, railing tangga serta teralis dengan berbagai macam bahan baik dari besi maupun stainless.',
+    title: 'Renovasi <span>Rumah & Gedung</span>',
+    description: 'Selain jasa bengkel las, untuk bagian eksterior dan pengamanan kami juga menyediakan jasa bengkel las untuk melayani jasa pembuatan kanopi, pagar, railing tangga serta teralis dengan berbagai macam bahan baik dari besi maupun stainless.',
   },
   {
     id: 3,
     image: Slide3,
-    title: 'Tambah caption <span>lainnya</span>',
-    description: 'Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.',
+    title: 'Bengkel <span>Las</span>',
+    description: 'Selain jasa renovasi rumah, untuk bagian eksterior dan pengamanan kami juga menyediakan jasa bengkel las untuk melayani jasa pembuatan kanopi, pagar, railing tangga serta teralis dengan berbagai macam bahan baik dari besi maupun stainless.',
   },
+
 ];
 
 function HeroCarousel() {
