@@ -1,7 +1,7 @@
 import '../Header/Header.css';
 import React, { useState ,useEffect} from 'react';
 
-import { List ,ChevronDown, ChevronRight} from 'react-bootstrap-icons';
+import { List ,ChevronDown} from 'react-bootstrap-icons';
 
 import Yimg from "../../assets/img/yolan.png";
 
@@ -66,8 +66,57 @@ function Header() {
                 </li> */}
                 <li className="dropdown"><a href="/product"><span>Gallery</span> <i><ChevronDown/></i></a>
                   <ul>
-                    <li><a href="#/">Drop Down 1</a></li>
-                    <li className="dropdown"><a href="#/"><span>Deep Drop Down</span> <i><ChevronRight/></i></a>
+                    <li>
+                      <a href="#/">
+                      jenis kanopi
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#/">
+                      jenis pintu
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#/">
+                      jenis reling
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#/">
+                      pembuatan menara
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#/">
+                      jenis kanopi
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#/">
+                      layanan lainnya
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#/">
+                      layanan lainnya II
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#/">
+                      project konstruksi
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#/">
+                      pintu pagar dan reling tangga laser cutting
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#/">
+                      exterior rumah
+                      </a>
+                    </li>
+                    {/* <li className="dropdown"><a href="#/"><span>Deep Drop Down</span> <i><ChevronRight/></i></a>
                       <ul>
                         <li><a href="#/">Deep Drop Down 1</a></li>
                         <li><a href="#/">Deep Drop Down 2</a></li>
@@ -78,7 +127,7 @@ function Header() {
                     </li>
                     <li><a href="#/">Drop Down 2</a></li>
                     <li><a href="#/">Drop Down 3</a></li>
-                    <li><a href="#/">Drop Down 4</a></li>
+                    <li><a href="#/">Drop Down 4</a></li> */}
                   </ul>
                 </li>
                 <li><a href="/contact">Contact</a></li>
