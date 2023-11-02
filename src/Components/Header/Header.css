@@ -108,7 +108,7 @@
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: 24px;
+  left: 10px;
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
@@ -149,20 +149,24 @@
 
 .navbar .dropdown .dropdown ul {
   top: 0;
-  left: calc(100% - 30px);
+  /* left: calc(100% - 30px); */
+  right: 100%;
+  left: auto;
   visibility: hidden;
 }
 
 .navbar .dropdown .dropdown:hover>ul {
   opacity: 1;
   top: 0;
-  left: 100%;
+  /* left: 100%; */
+  left: auto;
+  right: 100%;
   visibility: visible;
 }
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
-    left: -90%;
+    left: 0%;
   }
 
   .navbar .dropdown .dropdown:hover>ul {
@@ -183,7 +187,7 @@
   transition: 0.5s;
 }
 
-.mobile-nav-toggle.bi-x {
+.bi-x {
   color: #fff;
 }
 

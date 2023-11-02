@@ -5,7 +5,7 @@ import './HeroCarousel.css'
 // Import image
 import Slide1 from '../../../assets/img/slide/slide-1.jpg';
 import Slide2 from '../../../assets/img/slide/slide-2.jpg';
-import Slide3 from '../../../assets/img/slide/slide-3.jpg';
+import Slide3 from '../../../assets/img/home-1.jpeg';
 
 // import faviconm
 import { ChevronRight, ChevronLeft} from 'react-bootstrap-icons';
@@ -62,8 +62,10 @@ function HeroCarousel() {
                 <div className="carousel-content">
                   <h2 className="animate__animated animate__fadeInDown" dangerouslySetInnerHTML={{ __html: slide.title }}></h2>
                   {/* <h2 className="animate__animated animate__fadeInDown">{slide.title} <span>Yolan Indah Nusantara</span></h2> */}
-                  <p className="animate__animated animate__fadeInUp">{slide.description}</p>
-                  <a href="#about" className="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+                  <strong>
+                    <p className="animate__animated animate__fadeInUp">{slide.description}</p>
+                  </strong>
+                  <a href="/contact" className="btn-get-started animate__animated animate__fadeInUp">Hubungi Kami</a>
                 </div>
               </div>
             </Carousel.Item>

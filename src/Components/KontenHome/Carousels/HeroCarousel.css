@@ -56,14 +56,16 @@
 }
 
 #hero h2 span {
-  color: #e96b56;
+  color: #9b2612;
+  /* color: #e96b56; */
 }
 
 #hero p {
-  width: 80%;
+  width: 80% !important;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: arken(#545454, 15);
+  /* color:#fff !important */
 }
 
 #hero .carousel-inner .carousel-item {

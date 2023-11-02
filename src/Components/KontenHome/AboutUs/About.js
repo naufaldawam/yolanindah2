@@ -3,7 +3,7 @@ import "./About.css";
 
 
 // import image
-import AboutImg from "../../../assets/img/about.jpg";
+import AboutImg from "../../../assets/img/yin.jpeg";
 import { Container } from 'react-bootstrap';
 
 //favicon
@@ -19,9 +19,11 @@ function About() {
               <img src={AboutImg} className="img-fluid" alt=""/>
             </div>
             <div className="col-lg-6 pt-4 pt-lg-0 content">
+              <strong> 
               <p className="fst-italic bold">
                   PT Yolan Indah Nusantara
               </p>
+              </strong>
               <p>
                 Awal kali berdiri tahun 2008 bermula dari bengkel las yang menyediakan jasa pengelesan. Setelah tahun berjalan kami bertekad untuk melebarkan sayap menjadi sebuah perusahaan penyedia jasa renovasi rumah.
               </p>

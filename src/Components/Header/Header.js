@@ -1,16 +1,14 @@
 import '../Header/Header.css';
 import React, { useState ,useEffect} from 'react';
-
-import { List ,ChevronDown} from 'react-bootstrap-icons';
-
+import { List ,ChevronDown, ChevronRight, X} from 'react-bootstrap-icons';
 import Yimg from "../../assets/img/yolan.png";
 
 function Header() {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
-
   const toggleMobileNav = () => {
     setIsMobileNavOpen(!isMobileNavOpen);
   };
+  const currentPath = window.location.pathname; // Dapatkan path rute saat ini
 
 
   useEffect(() => {
@@ -40,9 +38,9 @@ function Header() {
 
             <nav id="navbar" className={`navbar ${isMobileNavOpen ? 'navbar-mobile' : ''}`}>
               <ul>
-                <li><a className="active" href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/service">Services</a></li>
+                <li><a className={currentPath === '/' ? 'active' : ''}  href="/">Home</a></li>
+                <li><a className={currentPath === '/about' ? 'active' : ''} href="/about">About</a></li>
+                <li><a className={currentPath === '/service' ? 'active' : ''} href="/service">Services</a></li>
                 {/* <li><a href="/product">Product</a></li> */}
                 {/* <li><a href="team.html">Team</a></li>
                 <li><a href="pricing.html">Pricing</a></li>
@@ -64,13 +62,30 @@ function Header() {
                     <li><a href="#/">Drop Down 4</a></li>
                   </ul>
                 </li> */}
-                <li className="dropdown"><a href="/product"><span>Gallery</span> <i><ChevronDown/></i></a>
+                {/* <li className="dropdown"><a href="#/"><span>Jenis Kanopi</span> <i><ChevronRight/></i></a>
                   <ul>
-                    <li>
+                    <li><a href="#/">Jenis Kanopi 1</a></li>
+                    <li><a href="#/">Jenis Kanopi 2</a></li>
+                    <li><a href="#/">Jenis Kanopi 3</a></li>
+                    <li><a href="#/">Jenis Kanopi 4</a></li>
+                  </ul>
+                </li> */}
+                <li className={"dropdown" + (currentPath === '/product' ? ' active' : '')}>
+                  <a href="/product"><span>Gallery</span> <i><ChevronDown/></i></a>
+                  <ul>
+                    <li className="dropdown"><a href="#/"><span>Jenis Kanopi</span> <i><ChevronRight/></i></a>
+                      <ul>
+                        <li><a href="#/">Jenis Kanopi 1</a></li>
+                        <li><a href="#/">Jenis Kanopi 2</a></li>
+                        <li><a href="#/">Jenis Kanopi 3</a></li>
+                        <li><a href="#/">Jenis Kanopi 4</a></li>
+                      </ul>
+                    </li>
+                    {/* <li>
                       <a href="#/">
                       jenis kanopi
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="#/">
                       jenis pintu
@@ -130,10 +145,10 @@ function Header() {
                     <li><a href="#/">Drop Down 4</a></li> */}
                   </ul>
                 </li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a className={currentPath === '/contact' ? 'active' : ''} href="/contact">Contact</a></li>
               </ul>
               <i className="mobile-nav-toggle" onClick={toggleMobileNav}>
-                <List/>
+              {isMobileNavOpen ? <X className="bi-x"/> : <List />} {/* Tampilkan ikon 'X' jika mobileNav terbuka, sebaliknya tampilkan ikon 'List' */}
               </i>
             </nav>
           </div>
