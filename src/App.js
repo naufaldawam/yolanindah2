@@ -10,6 +10,14 @@ import Service from './Pages/Service';
 import Product from './Pages/Product';
 import Contact from './Pages/Contact';
 
+// pages navbar konten tambahan
+import HomeRenov from './Pages/ProductHomeRenov';
+import WeldingProduct from './Pages/ProductWeldings';
+import StarRailingProduct from './Pages/ProductStarRailings';
+import CanopysProduct from './Pages/ProductCanopy';
+import KitchenSetProduct from './Pages/ProductKitchenSets';
+import HomeAndBuildingProduct from './Pages/ProductHomeAndBuildings';
+
 function App() {
   return (
     <div>
@@ -21,6 +29,13 @@ function App() {
           <Route path='/service' element={<Service/>}/>
           <Route path='/product' element={<Product/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          {/* path route service */}
+          <Route path='/service/renovasirumah' element={<HomeRenov/>}/>
+          <Route path='/service/las' element={<WeldingProduct/>}/>
+          <Route path='/service/relingdantangga' element={<StarRailingProduct/>}/>
+          <Route path='/service/canopy' element={<CanopysProduct/>}/>
+          <Route path='/service/setdapur' element={<KitchenSetProduct/>}/>
+          <Route path='/service/renovrumahdanbangunan' element={<HomeAndBuildingProduct/>}/>
           {/* <Route path='/login' element={<Login/>}/> */}
           {/* <Route path='/about' element={<About/>}/> */}
           {/* <Route path='/feedback' element={<Feedback/>}/> */}

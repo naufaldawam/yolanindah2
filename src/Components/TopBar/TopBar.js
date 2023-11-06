@@ -30,11 +30,11 @@
 
 import './TopBar.css';
 import React from 'react';
-import { Envelope, Twitter, Facebook, Instagram, Linkedin, Phone, Whatsapp } from 'react-bootstrap-icons';
+import { Envelope, Facebook, Instagram, Phone, Whatsapp } from 'react-bootstrap-icons';
 import { Container } from 'react-bootstrap';
 
 function openWhatsApp() {
-  window.open('https://wa.me/628170123021/?text=halo%20yolan%20indah%2csaya%20ingin%20mendapatkan%20informasi', '_blank');
+  window.open('https://wa.me/628170123021/?text=Halo+Admin%2C+saya+baru+saja+mengunjungi+website+Yolan+Indah+Nusantara%2C+Saya+ingin+berkonsultasi+tentang+.............+%28silahkan+isi+informasi+yang+anda+ingin+tanyakan+kepada+kami%29', '_blank');
 }
 
 function TopBars() {
@@ -58,18 +58,19 @@ function TopBars() {
           </i>
         </div>
         <div className="social-links d-none d-md-flex align-items-center">
-          <a href="#/" className="twitter">
-            <Twitter/>
-          </a>
-          <a href="#/" className="facebook">
+
+          <a href="https://www.facebook.com/yolan.indah.7/" target='_blank' rel='noreferrer' className="facebook">
             <Facebook/>
           </a>
-          <a href="#/" className="instagram">
+          <a href="https://instagram.com/muchlis948?igshid=NzZlODBkYWE4Ng==" target='_blank' rel='noreferrer' className="instagram">
             <Instagram/>
+          </a>
+          {/* <a href="#/" className="twitter">
+            <Twitter/>
           </a>
           <a href="#/" className="linkedin">
             <Linkedin/>
-          </a>
+          </a> */}
         </div>
       </Container>
     </section>

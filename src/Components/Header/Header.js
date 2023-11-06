@@ -1,6 +1,6 @@
 import '../Header/Header.css';
 import React, { useState ,useEffect} from 'react';
-import { List ,ChevronDown, ChevronRight, X} from 'react-bootstrap-icons';
+import { List , X} from 'react-bootstrap-icons';
 import Yimg from "../../assets/img/yolan.png";
 
 function Header() {
@@ -9,7 +9,9 @@ function Header() {
     setIsMobileNavOpen(!isMobileNavOpen);
   };
   const currentPath = window.location.pathname; // Dapatkan path rute saat ini
-
+  const refreshPage = () => {
+    window.location.reload(); // Memuat ulang halaman
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,6 +24,7 @@ function Header() {
     };
 
     window.addEventListener('scroll', handleScroll);
+    
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
@@ -33,7 +36,7 @@ function Header() {
           <div className="container d-flex justify-content-between align-items-center">
             <div className="logo">
             <h1><a href="index.html"><img src={Yimg} alt="" className="img-fluid"/></a>
-              <a href="/">PT Yolan Indah Nusantara</a></h1>
+              <a href="/" onClick={refreshPage}>PT Yolan Indah Nusantara</a></h1>
             </div>
 
             <nav id="navbar" className={`navbar ${isMobileNavOpen ? 'navbar-mobile' : ''}`}>
@@ -70,7 +73,7 @@ function Header() {
                     <li><a href="#/">Jenis Kanopi 4</a></li>
                   </ul>
                 </li> */}
-                <li className={"dropdown" + (currentPath === '/product' ? ' active' : '')}>
+                {/* <li className={"dropdown" + (isMobileNavOpen === '/product' ? ' active' : '')}>
                   <a href="/product"><span>Gallery</span> <i><ChevronDown/></i></a>
                   <ul>
                     <li className="dropdown"><a href="#/"><span>Jenis Kanopi</span> <i><ChevronRight/></i></a>
@@ -81,11 +84,11 @@ function Header() {
                         <li><a href="#/">Jenis Kanopi 4</a></li>
                       </ul>
                     </li>
-                    {/* <li>
+                    <li>
                       <a href="#/">
                       jenis kanopi
                       </a>
-                    </li> */}
+                    </li>
                     <li>
                       <a href="#/">
                       jenis pintu
@@ -131,7 +134,37 @@ function Header() {
                       exterior rumah
                       </a>
                     </li>
-                    {/* <li className="dropdown"><a href="#/"><span>Deep Drop Down</span> <i><ChevronRight/></i></a>
+                    <li>
+                      <a href="/product/renovasirumah">
+                      Renovasi Rumah
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/product/las">
+                      Las
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/product/pagar">
+                      Pagar
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/product/relingdantangga">
+                      Reling & Tangga
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/product/kanopi">
+                      Kanopi
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/product/layananlainnya">
+                      Layanan Lainnya
+                      </a>
+                    </li>
+                    <li className="dropdown"><a href="#/"><span>Deep Drop Down</span> <i><ChevronRight/></i></a>
                       <ul>
                         <li><a href="#/">Deep Drop Down 1</a></li>
                         <li><a href="#/">Deep Drop Down 2</a></li>
@@ -142,9 +175,10 @@ function Header() {
                     </li>
                     <li><a href="#/">Drop Down 2</a></li>
                     <li><a href="#/">Drop Down 3</a></li>
-                    <li><a href="#/">Drop Down 4</a></li> */}
+                    <li><a href="#/">Drop Down 4</a></li>
                   </ul>
-                </li>
+                </li> */}
+                <li><a className={currentPath === '/product' ? 'active' : ''} href="/product">Gallery</a></li>
                 <li><a className={currentPath === '/contact' ? 'active' : ''} href="/contact">Contact</a></li>
               </ul>
               <i className="mobile-nav-toggle" onClick={toggleMobileNav}>

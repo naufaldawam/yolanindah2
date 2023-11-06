@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './HeroCarousel.css'
 // Import image
 import Slide1 from '../../../assets/img/slide/slide-1.jpg';
-import Slide2 from '../../../assets/img/slide/slide-2.jpg';
+import Slide2 from '../../../assets/img/home-2.png';
 import Slide3 from '../../../assets/img/home-1.jpeg';
 
 // import faviconm
@@ -15,13 +15,13 @@ const slides = [
     id: 1,
     image: Slide1,
     title: 'Welcome to <span>Yolan Indah Nusantara</span>',
-    description: 'Selamat datang di website kami,dimana kami juga menyediakan jasa bengkel las untuk melayani jasa pembuatan kanopi, pagar, railing tangga serta teralis dengan berbagai macam bahan baik dari besi maupun stainless.',
+    description: 'Selamat datang di website kami. Kami menyediakan layanan jasa Renovasi Rumah dan jasa Bengkel Las .Atur semuanya disini, kami akan membantu mewujudkan impian anda.',
   },
   {
     id: 2,
     image: Slide2,
-    title: 'Renovasi <span>Rumah & Gedung</span>',
-    description: 'Selain jasa bengkel las, untuk bagian eksterior dan pengamanan kami juga menyediakan jasa bengkel las untuk melayani jasa pembuatan kanopi, pagar, railing tangga serta teralis dengan berbagai macam bahan baik dari besi maupun stainless.',
+    title: 'Jasa <span> Renovasi Rumah</span>',
+    description: 'Rumah baru tanpa harus pindah! Percayakan renovasi rumah Anda pada ahli kami.',
   },
   {
     id: 3,

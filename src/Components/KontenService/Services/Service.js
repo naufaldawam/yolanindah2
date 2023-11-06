@@ -7,7 +7,7 @@ import { ColumnsGap, Hammer, UmbrellaFill, BuildingGear, HouseDoor, Tools} from 
 
 function Service() {
   return (
-    <section id="services" className="services">
+  <section id="services" className="services">
     <Container>
       <div className="row">
           <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
@@ -17,7 +17,7 @@ function Service() {
               <p>
                 Tim ahli kami akan membantu Anda merancang dan melaksanakan proyek renovasi rumah sesuai dengan kebutuhan dan anggaran Anda.
               </p>
-              <a className="btn-more" href='/contact'>Hubungi Kami</a>
+              <a className="btn-more" href='/service/renovasirumah'>Selengkapnya</a>
             </div>
           </div>
 
@@ -28,7 +28,7 @@ function Service() {
               <p>
                 Kami ahli dalam penggabungan dan perbaikan material logam. Solusi pengelasan berkualitas untuk berbagai proyek.
               </p>
-              <a className="btn-more" href='/contact'>hubungi kami</a>
+              <a className="btn-more" href='/service/las'>Selengkapnya</a>
             </div>
           </div>
 
@@ -39,7 +39,7 @@ function Service() {
               <p>
                 Desain dan pembuatan furniture kustom berkualitas sesuai kebutuhan Anda.
               </p>
-              <a className="btn-more" href='/contact'>hubungi kami</a>
+              <a className="btn-more" href='/service/setdapur'>Selengkapnya</a>
             </div>
           </div>
 
@@ -50,7 +50,7 @@ function Service() {
               <p>
                 Desain dan konstruksi pagar dan tangga sesuai preferensi Anda.
               </p>
-              <a className="btn-more" href='/contact'>hubungi kami</a>
+              <a className="btn-more" href='/service/relingdantangga'>Selengkapnya</a>
             </div>
           </div>
 
@@ -61,7 +61,7 @@ function Service() {
               <p>
                 Desain dan instalasi kanopi untuk melindungi dari cuaca dan memberikan area teduh.
               </p>
-              <a className="btn-more" href='/contact'>hubungi kami</a>
+              <a className="btn-more" href='/service/canopy'>Selengkapnya</a>
             </div>
           </div>
 
@@ -72,7 +72,7 @@ function Service() {
               <p>
                 Transformasi interior dan eksterior dengan desain kreatif untuk menciptakan suasana yang memikat.
               </p>
-              <a className="btn-more" href='/contact'>hubungi kami</a>
+              <a className="btn-more" href='/service/renovrumahdanbangunan'>Selengkapnya</a>
             </div>
           </div>
 

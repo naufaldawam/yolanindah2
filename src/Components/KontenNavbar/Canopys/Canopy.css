@@ -1,0 +1,35 @@
+/* home renov.css */
+
+.canopys-railing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.canopys-main-photo img {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+
+.canopys-main-photo-ii {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+
+.canopysp{
+  /* padding-left: 20px; */
+  margin: 2rem;
+  text-align: justify;
+  /* padding: 2rem; */
+}
+
+.canopysol{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: justify;
+}

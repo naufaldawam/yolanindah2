@@ -3,11 +3,10 @@ import React from 'react';
 import { Form } from 'react-bootstrap';
 
 // import favicon
-import { Twitter, Facebook, Instagram, Linkedin, Skype} from 'react-bootstrap-icons';
+import { Facebook, Instagram} from 'react-bootstrap-icons';
 
-const Footer = () => {
-  return (
-    <footer id="footer">
+const Footer = () => (
+  <footer id="footer">
 
     <div className="footer-newsletter">
       <div className="container">
@@ -18,8 +17,8 @@ const Footer = () => {
           </div>
           <div className="col-lg-6">
             <Form>
-              <input type="email" name="email" placeholder='Masukkan Email Anda'/>
-              <input type="submit" value="Kirim Email"/>
+              <input type="email" name="email" placeholder='Masukkan Email Anda' />
+              <input type="submit" value="Kirim Email" />
             </Form>
           </div>
         </div>
@@ -31,26 +30,26 @@ const Footer = () => {
         <div className="row">
 
           {/* <div className="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i className="bx"><ChevronRight/></i> <a href="#/">Home</a></li>
-              <li><i className="bx"><ChevronRight/></i> <a href="#/">About us</a></li>
-              <li><i className="bx"><ChevronRight/></i> <a href="#/">Services</a></li>
-              <li><i className="bx"><ChevronRight/></i> <a href="#/">Terms of service</a></li>
-              <li><i className="bx"><ChevronRight/></i> <a href="#/">Privacy policy</a></li>
-            </ul>
-          </div>
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i className="bx"><ChevronRight/></i> <a href="#/">Home</a></li>
+            <li><i className="bx"><ChevronRight/></i> <a href="#/">About us</a></li>
+            <li><i className="bx"><ChevronRight/></i> <a href="#/">Services</a></li>
+            <li><i className="bx"><ChevronRight/></i> <a href="#/">Terms of service</a></li>
+            <li><i className="bx"><ChevronRight/></i> <a href="#/">Privacy policy</a></li>
+          </ul>
+        </div>
 
-          <div className="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i className="bx"><ChevronRight/></i> <a href="#/">Web Design</a></li>
-              <li><i className="bx"><ChevronRight/></i> <a href="#/">Web Development</a></li>
-              <li><i className="bx"><ChevronRight/></i> <a href="#/">Product Management</a></li>
-              <li><i className="bx"><ChevronRight/></i> <a href="#/">Marketing</a></li>
-              <li><i className="bx"><ChevronRight/></i> <a href="#/">Graphic Design</a></li>
-            </ul>
-          </div> */}
+        <div className="col-lg-3 col-md-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i className="bx"><ChevronRight/></i> <a href="#/">Web Design</a></li>
+            <li><i className="bx"><ChevronRight/></i> <a href="#/">Web Development</a></li>
+            <li><i className="bx"><ChevronRight/></i> <a href="#/">Product Management</a></li>
+            <li><i className="bx"><ChevronRight/></i> <a href="#/">Marketing</a></li>
+            <li><i className="bx"><ChevronRight/></i> <a href="#/">Graphic Design</a></li>
+          </ul>
+        </div> */}
 
           <div className="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
@@ -69,11 +68,11 @@ const Footer = () => {
             <h3>About</h3>
             <p>Terus dapatkan informasi seputar kita pada link dibawah ini</p>
             <div className="social-links mt-3">
-              <a href="#/" className="twitter"><i className="bx"><Twitter/></i></a>
-              <a href="#/" className="facebook"><i className="bx"><Facebook/></i></a>
-              <a href="#/" className="instagram"><i className="bx"><Instagram/></i></a>
-              <a href="#/" className="google-plus"><i className="bx"><Skype/></i></a>
-              <a href="#/" className="linkedin"><i className="bx"><Linkedin/></i></a>
+              {/* <a href="#/" className="twitter"><i className="bx"><Twitter/></i></a> */}
+              <a href="https://www.facebook.com/yolan.indah.7/" className="facebook" target='_blank' rel="noreferrer"><i className="bx"><Facebook /></i></a>
+              <a href="https://instagram.com/muchlis948?igshid=NzZlODBkYWE4Ng== " className="instagram" target="_blank" rel="noreferrer"><i className="bx"><Instagram /></i></a>
+              {/* <a href="#/" className="google-plus"><i className="bx"><Skype /></i></a> */}
+              {/* <a href="#/" className="linkedin"><i className="bx"><Linkedin /></i></a> */}
             </div>
           </div>
 
@@ -94,8 +93,7 @@ const Footer = () => {
       </div>
     </div>
   </footer>
-  );
-};
+);
 
 export default Footer;
 

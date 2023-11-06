@@ -13,6 +13,10 @@ import TopBars from './Components/TopBar/TopBar';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// botton in index.js
+import WhatsappButton from './Components/WhatsappButtons/WhatsappButton';
+// import UpBotton from './Components/UpButtons/UpBotton';
+
 // import
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,6 +25,8 @@ root.render(
     <TopBars/>
     <Header/>
     <App />
+    <WhatsappButton/>
+    {/* <UpBotton/> */}
     <Footer/>
   </React.StrictMode>
 );

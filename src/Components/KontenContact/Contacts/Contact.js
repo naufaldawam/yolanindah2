@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Contact.css";
 import { Container, Row } from 'react-bootstrap';
+import { Map as IconMap, Mailbox, Phone } from 'react-bootstrap-icons';
 
 
 function Contact() {
@@ -12,7 +13,8 @@ function Contact() {
 
           <div className="col-lg-6">
             <div className="info-box mb-4">
-              <i className="bx bx-map"></i>
+              {/* <i className="bx bx-map"></i> */}
+              <i><IconMap/></i>
               <h3>Alamat Kami</h3>
               <p>Jl. Pangeran Antasari No.5 RT.1/RW.9, Cipete Utara Kec.Kebayoran Baru Jakarta, 12150</p>
             </div>
@@ -20,7 +22,8 @@ function Contact() {
 
           <div className="col-lg-3 col-md-6">
             <div className="info-box  mb-4">
-              <i className="bx bx-envelope"></i>
+              {/* <i className="bx bx-envelope"></i> */}
+              <i><Mailbox/></i>
               <h3>Email Us</h3>
               <p>marketing@yolanindah.com</p>
             </div>
@@ -28,10 +31,16 @@ function Contact() {
 
           <div className="col-lg-3 col-md-6">
             <div className="info-box  mb-4">
-              <i className="bx bx-phone-call"></i>
+              <i><Phone/></i>
               <h3>Call Us</h3>
               <p>(021) 7590948</p>
-              <p>(+62) 8170123021</p>
+              {/* <a href='https://wa.me/628170123021/?text=Halo+Admin%2C+saya+baru+saja+mengunjungi+website+Yolan+Indah+Nusantara%2C+Saya+ingin+berkonsultasi+tentang+.............+%28silahkan+isi+informasi+yang+anda+ingin+tanyakan+kepada+kami%29'>
+                (021) 7590948
+              </a> */}
+              <a href='https://wa.me/628170123021/?text=Halo+Admin%2C+saya+baru+saja+mengunjungi+website+Yolan+Indah+Nusantara%2C+Saya+ingin+berkonsultasi+tentang+.............+%28silahkan+isi+informasi+yang+anda+ingin+tanyakan+kepada+kami%29'>
+                (+62) 8170123021
+              </a>
+              {/* <p>(+62) 8170123021</p> */}
             </div>
           </div>
           

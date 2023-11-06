@@ -127,3 +127,17 @@
     transform: rotate(360deg);
   }
 }
+
+
+#contact a{
+  text-decoration: none !important;
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+  color:#444444  ;
+}
+
+#contact a:hover{
+  color: #ed3c0d !important;
+}

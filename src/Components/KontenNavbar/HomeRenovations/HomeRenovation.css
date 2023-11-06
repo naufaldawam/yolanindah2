@@ -1,0 +1,30 @@
+/* home renov.css */
+
+.home-railing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.homerenov-main-photo img {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+
+.homerenov-main-photo-ii {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+
+.homerenovp{
+  /* padding-left: 20px; */
+  margin: 2rem;
+  text-align: justify;
+  /* padding: 2rem; */
+}
+
