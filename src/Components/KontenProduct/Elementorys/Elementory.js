@@ -46,6 +46,8 @@ import RR3 from '../../../assets/img/product/renov3.jpg'
 import RR4 from '../../../assets/img/product/renov4.jpg'
 import RR5 from '../../../assets/img/product/renov5.jpg'
 import RR6 from '../../../assets/img/product/renov6.jpg'
+import KS1 from '../../../assets/img/product/kitchenset1.jpg'
+import KS2 from '../../../assets/img/product/kitchenset2.jpg'
 
 // Objek kategori
 const categories = [
@@ -84,6 +86,8 @@ const images = [
   { id: 7, src: K4, category: 'category2' },
   { id: 8, src: K5, category: 'category2' },
   { id: 9, src: K6, category: 'category2' },
+  { id: 35, src: KS1, category: 'category3' },
+  { id: 36, src: KS2, category: 'category3' },
   { id: 10, src: L1, category: 'category4' },
   { id: 11, src: L2, category: 'category4' },
   { id: 12, src: LY1, category: 'category4' },
