@@ -44,7 +44,7 @@ function TopBars() {
         <div className="contact-info d-flex align-items-center">
           <i className="d-flex align-items-center">
             <Envelope/>
-            <a href="mailto:contact@example.com">marketing@yolanindah.com</a>
+            <a href="mailto:yolanindahnusantara@gmail.com">yolanindahnusantara@gmail.com</a>
           </i>
           <i className="d-flex align-items-center ms-4">
             <Phone/>

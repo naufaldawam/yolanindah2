@@ -25,7 +25,7 @@ function Contact() {
               {/* <i className="bx bx-envelope"></i> */}
               <i><Mailbox/></i>
               <h3>Email Us</h3>
-              <p>marketing@yolanindah.com</p>
+              <p>yolanindahnusantara@gmail.com</p>
             </div>
           </div>
 

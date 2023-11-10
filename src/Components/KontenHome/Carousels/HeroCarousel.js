@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './HeroCarousel.css'
 // Import image
-import Slide1 from '../../../assets/img/slide/slide-1.jpg';
+import Slide1 from '../../../assets/img/home-3.png';
 import Slide2 from '../../../assets/img/home-2.png';
 import Slide3 from '../../../assets/img/home-1.jpeg';
 
@@ -15,7 +15,7 @@ const slides = [
     id: 1,
     image: Slide1,
     title: 'Welcome to <span>Yolan Indah Nusantara</span>',
-    description: 'Selamat datang di website kami. Kami menyediakan layanan jasa Renovasi Rumah dan jasa Bengkel Las .Atur semuanya disini, kami akan membantu mewujudkan impian anda.',
+    description: 'Selamat datang di website kami. Kami menyediakan layanan jasa Renovasi Rumah dan jasa Bengkel Las. Atur semuanya disini, kami akan membantu mewujudkan impian anda.',
   },
   {
     id: 2,

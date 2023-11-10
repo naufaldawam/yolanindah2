@@ -19,10 +19,10 @@ function Welding () {
 
         <div className="single-service-text recent-single-text pt_30">
           <p className="weldingp">
-            <strong>Las</strong> merupakan penyambungan (besi dan sebagainya) dengan cara membakar, sedangkan Pengelasan adalah suatu proses penyambungan dua atau lebih benda dengan cara melelehkan logam atau bahan lain di antara mereka dan kemudian mendinginkannya untuk membentuk sambungan yang kuat. Proses pengelasan umumnya dilakukan dengan menggunakan panas yang tinggi, seringkali dengan bantuan elektris atau gas
+            <strong>Las</strong> merupakan penyambungan (besi dan sebagainya) dengan cara membakar, sedangkan Pengelasan adalah suatu proses penyambungan dua atau lebih benda dengan cara melelehkan logam atau bahan lain di antara mereka dan kemudian mendinginkannya untuk membentuk sambungan yang kuat. Proses pengelasan umumnya dilakukan dengan menggunakan panas yang tinggi, seringkali dengan bantuan elektris atau gas  Untuk melelehkan bahan dasar yang akan digabungkan. Ini adalah teknik yang sangat umum digunakan dalam berbagai industri, termasuk konstruksi, manufaktur, otomotif, dan banyak lagi.
           </p>
           <p className="weldingp">
-            Untuk melelehkan bahan dasar yang akan digabungkan. Ini adalah teknik yang sangat umum digunakan dalam berbagai industri, termasuk konstruksi, manufaktur, otomotif, dan banyak lagi. Bengkel las merupakan suatu usaha yang bergerak di bidang pengelasan atau jasa pengelasan berbagai jenis logam seperti besi dan stainless steel. <strong>PT Yolan Indah Nusantara</strong> menyediakan jasa las untuk kebutuhan rumah dan kantor.
+           Bengkel las merupakan suatu usaha yang bergerak di bidang pengelasan atau jasa pengelasan berbagai jenis logam seperti besi dan stainless steel. <strong>PT Yolan Indah Nusantara</strong> menyediakan jasa las untuk kebutuhan rumah dan kantor.
           </p>
           <p className="weldingp">
             Kami memiliki pengalaman dalam pembuatan semua jenis <strong>pagar, railing tangga, teralis, Kanopi dll</strong>. Kami selalu memberikan pelayanan yang maksimal untuk memuaskan pelanggan kami karena itulah integritas bisnis kami. Sebelum melaksanakan pekerjaan, kami selalu berkoordinasi untuk menyampaikan informasi mengenai bahan dan waktu pengerjaan sehingga pelanggan tidak perlu khawatir. 

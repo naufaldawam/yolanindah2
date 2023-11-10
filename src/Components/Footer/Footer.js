@@ -60,7 +60,7 @@ const Footer = () => (
               Jakarta, 12150 <br /><br />
               <strong>Phone:</strong> (021) 7590948<br />
               <strong>Phone:</strong> (+62) 8170123021<br />
-              <strong>Email:</strong> marketing@yolanindah.com<br />
+              <strong>Email:</strong> yolanindahnusantara@gmail.com<br />
             </p>
           </div>
 
