@@ -48,7 +48,7 @@ function TopBars() {
           </i>
           <i className="d-flex align-items-center ms-4">
             <Phone/>
-            <span>(021) 7590948</span>
+            <span>(021) 75909748</span>
           </i>
           <i className="d-flex align-items-center ms-4">
             <Whatsapp/>

@@ -58,7 +58,7 @@ const Footer = () => (
               RT.1/RW.9, Cipete Utara <br />
               Kec.Kebayoran Baru <br />
               Jakarta, 12150 <br /><br />
-              <strong>Phone:</strong> (021) 7590948<br />
+              <strong>Phone:</strong> (021) 75909748<br />
               <strong>Phone:</strong> (+62) 8170123021<br />
               <strong>Email:</strong> yolanindahnusantara@gmail.com<br />
             </p>

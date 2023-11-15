@@ -33,7 +33,7 @@ function Contact() {
             <div className="info-box  mb-4">
               <i><Phone/></i>
               <h3>Call Us</h3>
-              <p>(021) 7590948</p>
+              <p>(021) 75909748</p>
               {/* <a href='https://wa.me/628170123021/?text=Halo+Admin%2C+saya+baru+saja+mengunjungi+website+Yolan+Indah+Nusantara%2C+Saya+ingin+berkonsultasi+tentang+.............+%28silahkan+isi+informasi+yang+anda+ingin+tanyakan+kepada+kami%29'>
                 (021) 7590948
               </a> */}
